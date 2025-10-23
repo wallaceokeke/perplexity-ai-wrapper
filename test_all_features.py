@@ -667,6 +667,7 @@ class FeatureTester:
             time.sleep(1)
             
             self.test_web_driver()
+   
             time.sleep(1)
             
             self.test_network_inspector()
