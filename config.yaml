@@ -1,0 +1,22 @@
+# Perplexity AI Wrapper Configuration
+
+client:
+  base_url: "https://www.perplexity.ai"
+  timeout: 30
+  max_retries: 3
+
+search:
+  available_modes:
+    - "auto"
+    - "pro"
+    - "reasoning"
+    - "deep_research"
+
+logging:
+  level: "INFO"
+  file: "logs/perplexity_wrapper.log"
+
+automation:
+  browser:
+    headless: false
+    stealth: true
